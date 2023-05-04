@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link
+      rel="shortcut icon"
+      href="img/Unknown logo png.png"
+      type="image/x-icon"
+    />
+    <title>Unk Team | Sign Up Page</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="loading show" id="loading">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="150px"
+        height="150px"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          r="32"
+          stroke-width="8"
+          stroke="#0a0a0a"
+          stroke-dasharray="50.26548245743669 50.26548245743669"
+          fill="none"
+          stroke-linecap="round"
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            dur="1s"
+            repeatCount="indefinite"
+            keyTimes="0;1"
+            values="0 50 50;360 50 50"
+          />
+        </circle>
+        <circle
+          cx="50"
+          cy="50"
+          r="23"
+          stroke-width="8"
+          stroke="#28292f"
+          stroke-dasharray="36.12831551628262 36.12831551628262"
+          stroke-dashoffset="36.12831551628262"
+          fill="none"
+          stroke-linecap="round"
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            dur="1s"
+            repeatCount="indefinite"
+            keyTimes="0;1"
+            values="0 50 50;-360 50 50"
+          />
+        </circle>
+      </svg>
+    </div>
+    <!-- !**********************************************! -->
+    <header class="header header-none">
+      <div class="container">
+        <div class="header-main shadow">
+          <nav class="d-flex align-items-center justify-content-between">
+            <div class="col-md-4 col position-relative">
+              <h2 class="m-0 d-inline-block">Unk Shop</h2>
+              <div class="overLogo">
+                <img
+                  src="img/Unknown logo png.png"
+                  class="img-fluid logo"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col justify-self-end">
+              <ul class="row justify-content-end align-items-center items">
+                <li class="nav-item border-0">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tokens.html">
+                    Tokens
+                    <i class="fa-solid fa-cart-shopping ps-1"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html"
+                    >News <span class="count">3</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://discord.gg/unkteam"
+                    target="_blank"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-border"></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link log-in" href="login.html">Log In</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-btn d-none">
+              <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+            </div>
+            <ul class="d-flex items-mobile d-none shadow">
+              <li class="nav-item border-0">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tokens.html">Tokens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html"
+                  >News <span class="count">3</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://discord.gg/unkteam"
+                  target="_blank"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item log-in">
+                <a class="nav-link" href="login.html">Log in</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- !**********************************************! -->
+    <div class="container p-70">
+      <div class="d-flex row align-items-center justify-content-center">
+        <div
+          class="box text-center shadow row align-items-stretch justify-content-center wow bounceIn"
+        >
+          <div class="box-title">
+            <img
+              src="img/Unknown logo png.png"
+              alt=""
+              class="img-fluid logo mb-2"
+              onchange=""
+            />
+            <h2 class="title mb-0">Create an account</h2>
+          </div>
+          <form action="" class="form">
+            <div class="form-group mb-3">
+              <label for="nameInput" class="text-start d-block mb-2"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                id="nameInput"
+                class="form-control"
+                onkeyup="nameUser(this.value)"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="emailInput" class="text-start d-block mb-2"
+                >Email</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="emailInput"
+                class="form-control"
+                onkeyup="checkEmail(this.value)"
+              />
+            </div>
+            <div class="form-group">
+              <label for="passwordInput" class="text-start d-block mb-2"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="passwordInput"
+                class="form-control"
+                onkeyup="password(this.value)"
+              />
+              <i class="fa-solid fa-eye-slash" onclick="eye(this)"></i>
+            </div>
+            <div class="password-strength" style="display: none">
+              <div class="strength-bar">
+                <div class="strength-partial strength-partial--weak"></div>
+                <div class="strength-partial strength-partial--fair"></div>
+                <div class="strength-partial strength-partial--strong"></div>
+              </div>
+              <p class="strength-type"><span class="weak">weak</span></p>
+              <p class="strength-text">
+                This password is easy to guess. Please
+                <strong>use at least 8 characters.</strong>
+              </p>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary d-block w-100 mt-3 mb-4"
+              id="submitBtn"
+              disabled
+            >
+              Sign Up
+            </button>
+          </form>
+          <div>
+            <a href="" class="item">
+              <img src="img/discord.png" alt="" class="img-fluid" />
+              <span class="item-text">Continue with Discord</span>
+            </a>
+          </div>
+          <div class="have-account">
+            <p>Already have an account? <a href="login.html">Log In</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !**********************************************! -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <h4 class="mb-3">Unk Team</h4>
+            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3 mb-lg-0">
+            <h4 class="mb-3">Developers</h4>
+            <ul class="items">
+              <li class="item pb-2">
+                <a href="">Abdullah Mohamed (AvaTaR)</a>
+              </li>
+              <li class="item py-2"><a href="">Sasa</a></li>
+              <li class="item pt-2"><a href="">Se7a</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="mb-3">FeedBack</h4>
+            <form action="" class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter FeedBack..."
+              />
+              <button type="submit" class="btn btn-secondary">
+                Send Massage
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- !**********************************************! -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/login&signup.js"></script>
+  </body>
+</html>

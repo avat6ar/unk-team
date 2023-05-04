@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link
+      rel="shortcut icon"
+      href="img/Unknown logo png.png"
+      type="image/x-icon"
+    />
+    <title>Unk Team | Home Page</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="loading show" id="loading">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="150px"
+        height="150px"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          r="32"
+          stroke-width="8"
+          stroke="#0a0a0a"
+          stroke-dasharray="50.26548245743669 50.26548245743669"
+          fill="none"
+          stroke-linecap="round"
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            dur="1s"
+            repeatCount="indefinite"
+            keyTimes="0;1"
+            values="0 50 50;360 50 50"
+          />
+        </circle>
+        <circle
+          cx="50"
+          cy="50"
+          r="23"
+          stroke-width="8"
+          stroke="#28292f"
+          stroke-dasharray="36.12831551628262 36.12831551628262"
+          stroke-dashoffset="36.12831551628262"
+          fill="none"
+          stroke-linecap="round"
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            dur="1s"
+            repeatCount="indefinite"
+            keyTimes="0;1"
+            values="0 50 50;-360 50 50"
+          />
+        </circle>
+      </svg>
+    </div>
+    <!-- !**********************************************! -->
+    <!-- <header class="header">
+      <div class="container">
+        <div class="header-main shadow">
+          <nav class="d-flex align-items-center justify-content-between">
+            <div class="col-md-4 col position-relative">
+              <h2 class="m-0 d-inline-block">Unk Shop</h2>
+              <div class="overLogo">
+                <img
+                  src="img/Unknown logo png.png"
+                  class="img-fluid logo"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col justify-self-end">
+              <ul class="row justify-content-end align-items-center items">
+                <li class="nav-item border-0">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tokens.html">
+                    Tokens
+                    <i class="fa-solid fa-cart-shopping ps-1"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html"
+                    >News <span class="count">3</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://discord.gg/unkteam"
+                    target="_blank"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-border"></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link log-in" href="login.html">Log In</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-btn d-none">
+              <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+            </div>
+            <ul class="d-flex items-mobile d-none shadow">
+              <li class="nav-item border-0">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tokens.html">Tokens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html"
+                  >News <span class="count">3</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://discord.gg/unkteam"
+                  target="_blank"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item log-in">
+                <a class="nav-link" href="login.html">Log in</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header> -->
+    <header class="header">
+      <div class="container">
+        <div class="header-main shadow">
+          <nav class="d-flex align-items-center justify-content-between">
+            <div class="col-md-4 col position-relative">
+              <h2 class="m-0 d-inline-block">Unk Shop</h2>
+              <div class="overLogo">
+                <img
+                  src="img/Unknown logo png.png"
+                  class="img-fluid logo"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col justify-self-end">
+              <ul class="row justify-content-end align-items-center items">
+                <li class="nav-item border-0">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tokens.html">
+                    Tokens
+                    <i class="fa-solid fa-cart-shopping ps-1"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html"
+                    >News <span class="count">3</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://discord.gg/unkteam"
+                    target="_blank"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-border"></li>
+                <li
+                  class="account px-4 nav-item d-lg-flex align-items-center"
+                  id="openMuneAccount"
+                >
+                  <img src="img/photo.jpg" class="img-fluid img-user" alt="" />
+                  <a class="name-user px-2">! AvaTaR 웃</a>
+                  <span class="ps-2 icon-user">
+                    <i class="fa-solid fa-chevron-down transition"></i>
+                  </span>
+                  <div class="overlay shadow transition" id="muneAccount">
+                    <div class="overlay-item nav-item">
+                      <a href="profile.html" class="nav-link mb-2"
+                        >Profile
+                        <span class="ps-2"
+                          ><i class="fa-solid fa-user"></i></span
+                      ></a>
+                      <a href="purchases.html" class="nav-link"
+                        >Purchases
+                        <span class="ps-2"
+                          ><i class="fa-solid fa-bag-shopping"></i></span
+                      ></a>
+                    </div>
+                    <div class="overlay-item nav-item">
+                      <a href="#" class="nav-link"
+                        >Log Out
+                        <span class="ps-2"
+                          ><i
+                            class="fa-solid fa-arrow-right-from-bracket"
+                          ></i></span
+                      ></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <a
+              class="items-user d-none justify-self-end me-3"
+              href="profile.html"
+            >
+              <img src="img/photo.jpg" class="img-fluid img-user" alt="" />
+              <span class="name-user px-2">! AvaTaR 웃</span>
+            </a>
+            <div class="nav-btn d-none">
+              <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+            </div>
+            <ul class="d-flex items-mobile d-none">
+              <li class="nav-item border-0">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tokens.html">Tokens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html"
+                  >News <span class="count">3</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="purchases.html">Purchases</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://discord.gg/unkteam"
+                  target="_blank"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item log-out">
+                <a class="nav-link" href="#">Log Out</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- !**********************************************! -->
+    <div class="home home-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8">
+            <div class="home-text text-background text-center wow bounceIn">
+              <p class="mb-3 fs-5">Hello, We</p>
+              <h1 class="mb-3">UNKNOWN TEAM</h1>
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt,
+                accusantium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !**********************************************! -->
+    <div class="home-about">
+      <div class="container p-70">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12">
+            <div class="about-text">
+              <h2 class="h2 mb-0">About Us</h2>
+              <p class="my-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+                nam eaque molestiae, cum officia perferendis cumque iusto
+                explicabo quibusdam quasi.<a href="about.html">Read More </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="shadow my-3 mx-1 Primary card">
+              <div class="card-body">
+                <img src="img/photo2.jpg" alt="" class="card-img-top" />
+                <div class="crad_text pt-3">
+                  <h5 class="card-title h5">Abdullah Mohamed</h5>
+                  <p class="">Front End Developer React Js</p>
+                  <a href="about.html#avatar" class="btn">
+                    Learn More
+                    <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="shadow my-3 mx-1 Primary card">
+              <div class="card-body">
+                <img src="img/photo2.jpg" alt="" class="card-img-top" />
+                <div class="crad_text pt-3">
+                  <h5 class="card-title h5">Sasa</h5>
+                  <p class="">Front End Developer React Js</p>
+                  <a href="about.html#sasa" class="btn">
+                    Learn More
+                    <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="shadow my-3 mx-1 Primary card">
+              <div class="card-body">
+                <img src="img/photo2.jpg" alt="" class="card-img-top" />
+                <div class="crad_text pt-3">
+                  <h5 class="card-title h5">Se7a</h5>
+                  <p class="">Front End Developer React Js</p>
+                  <a href="about.html#se7a" class="btn">
+                    Learn More
+                    <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !**********************************************! -->
+    <div class="home-services home-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-10">
+            <div class="service-text text-center">
+              <h3 class="mb-4 h3">
+                Services <i class="fa-solid fa-server ps-2"></i>
+              </h3>
+              <p class="m-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                velit expedita voluptatem rerum ipsa odio dolore reiciendis esse
+                ipsam minima? Voluptatibus, quod possimus eaque impedit debitis
+                sapiente adipisci? Sequi saepe cum qui? Maxime minima ab fuga
+                quis molestiae rem, nulla quas ducimus odit praesentium
+                consectetur accusantium quod doloribus facilis blanditiis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !**********************************************! -->
+    <div class="category">
+      <div class="container p-70">
+        <div class="text-center">
+          <h2 class="mb-4 category-title">
+            <span>SHOP BY CATEGORY</span>
+          </h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="item my-3">
+                <a href="">
+                  <figure
+                    class="c4-izmir c4-border-center c4-image-zoom-in discord"
+                  >
+                    <img
+                      src="img/discord.jpg"
+                      class="img-fluid"
+                      alt="Sample Image"
+                    />
+                    <figcaption class="">
+                      <div class="c4-fade-up">
+                        <h4>Tokens</h4>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="item my-3">
+                <a href="accounts.html#spotify">
+                  <figure
+                    class="c4-izmir c4-border-center c4-image-zoom-in spotify"
+                  >
+                    <img
+                      src="img/spotify.jpg"
+                      class="img-fluid"
+                      alt="Sample Image"
+                    />
+                    <figcaption class="">
+                      <div class="c4-fade-up">
+                        <h4>Spotify</h4>
+                      </div>
+                      <div class="c4-fade-right mt-2">
+                        <h5>Soooon</h5>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="item my-3">
+                <a href="accounts.html#netflix">
+                  <figure
+                    class="c4-izmir c4-border-center c4-image-zoom-in netflix"
+                  >
+                    <img
+                      src="img/netflix.jpg"
+                      class="img-fluid"
+                      alt="Sample Image"
+                    />
+                    <figcaption class="">
+                      <div class="c4-fade-up">
+                        <h4>Netflix</h4>
+                      </div>
+                      <div class="c4-fade-right mt-2">
+                        <h5>Soooon</h5>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="item my-3">
+                <a href="accounts.html#shahid">
+                  <figure
+                    class="c4-izmir c4-border-center c4-image-zoom-in shahid"
+                  >
+                    <img
+                      src="img/shahid.jpg"
+                      class="img-fluid"
+                      alt="Sample Image"
+                    />
+                    <figcaption class="">
+                      <div class="c4-fade-up">
+                        <h4>Shahid Vip</h4>
+                      </div>
+                      <div class="c4-fade-right mt-2">
+                        <h5>Soooon</h5>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="item my-3">
+                <a href="">
+                  <figure
+                    class="c4-izmir c4-border-center c4-image-zoom-in discord"
+                  >
+                    <img
+                      src="img/discord.jpg"
+                      class="img-fluid"
+                      alt="Sample Image"
+                    />
+                    <figcaption class="">
+                      <div class="c4-fade-up">
+                        <h4>Bots</h4>
+                      </div>
+                      <div class="c4-fade-right mt-2">
+                        <h5>Soooon</h5>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !**********************************************! -->
+    <div class="payment-methods">
+      <div class="container pb-5">
+        <div class="text-center mb-4">
+          <h3 class="mb-2">Payment Methods</h3>
+          <p class="mb-0">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <span class="fs-1">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title></title>
+                  <path
+                    d="M12 0A12 12 0 0 0 0 12A12 12 0 0 0 12 24A12 12 0 0 0 24 12A12 12 0 0 0 12 0M16.25 1.12C16.57 1.12 16.9 1.15 17.11 1.22C14.94 1.67 13.21 3.69 13.22 6C13.22 6.05 13.22 6.11 13.23 6.17C16.87 7.06 18.5 9.25 18.5 12.28C18.54 15.31 16.14 18.64 12.09 18.65C8.82 18.66 5.41 15.86 5.39 11.37C5.38 8.4 7 5.54 9.04 3.85C11.04 2.19 13.77 1.13 16.25 1.12Z"
+                  ></path>
+                </svg>
+              </span>
+              <h4 class="my-3">Vodafone Cash</h4>
+              <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <span class="fs-1"><i class="fa-brands fa-cc-paypal"></i></span>
+              <h4 class="my-3">PayPal</h4>
+              <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <span class="fs-1"><i class="fa-solid fa-credit-card"></i></span>
+              <h4 class="my-3">Credit Card</h4>
+              <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <span class="fs-1">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title></title>
+                  <path
+                    d="M12 .04a1.743 1.743 0 0 0-.537 3.401l-.631 2.579H2.456A2.456 2.456 0 0 0 0 8.476v13.029a2.456 2.456 0 0 0 2.456 2.456h19.088c1.356 0 2.456-1.1 2.456-2.456V8.476c0-1.356-1.1-2.456-2.456-2.456h-8.403l-.616-2.575A1.743 1.743 0 0 0 11.999.04zM3.933 7.881h16.136c1.101 0 1.994.893 1.994 1.994v10.117a1.994 1.994 0 0 1-1.994 1.994H3.933a1.994 1.994 0 0 1-1.994-1.994V9.875c0-1.101.893-1.994 1.994-1.994zm3.254 2.312a4.575 4.575 0 1 0 0 9.15 4.575 4.575 0 0 0 0-9.15zm9.743 0a4.575 4.575 0 1 0 0 9.15 4.575 4.575 0 0 0 0-9.15zm-9.743 1.07a3.506 3.506 0 1 1 0 7.011 3.506 3.506 0 0 1 0-7.011zm9.743 0a3.506 3.506 0 1 1 0 7.011 3.506 3.506 0 0 1 0-7.011zm-9.743 1.663a1.843 1.843 0 1 0 0 3.686 1.843 1.843 0 0 0 0-3.686zm9.743 0a1.843 1.843 0 1 0 0 3.686 1.843 1.843 0 0 0 0-3.686zm-6.927 6.5v2.159h.706v-2.159h-.706zm1.077 0v2.159h.705v-2.159h-.705zm1.076 0v2.159h.706v-2.159h-.706zm1.077 0v2.159h.706v-2.159h-.706zm1.077.03v2.1a1.08 1.08 0 0 0 .829-1.049v-.001c0-.51-.354-.937-.829-1.05zm-4.678.028a1.08 1.08 0 0 0-.731 1.021v.001c0 .474.306.876.731 1.021v-2.043z"
+                  ></path>
+                </svg>
+              </span>
+              <h4 class="my-3">Credit ProBot</h4>
+              <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !**********************************************! -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <h4 class="mb-3">Unk Team</h4>
+            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3 mb-lg-0">
+            <h4 class="mb-3">Developers</h4>
+            <ul class="items">
+              <li class="item pb-2">
+                <a href="">Abdullah Mohamed (AvaTaR)</a>
+              </li>
+              <li class="item py-2"><a href="">Sasa</a></li>
+              <li class="item pt-2"><a href="">Se7a</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="mb-3">FeedBack</h4>
+            <form action="" class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter FeedBack..."
+              />
+              <button type="submit" class="btn btn-secondary">
+                Send Massage
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- !**********************************************! -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
